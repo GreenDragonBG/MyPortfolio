@@ -1,0 +1,10 @@
+{
+  "name": "To-Do List App",
+  "short_name": "ToDoList",
+  "description": "A simple, modern to-do list app to manage your tasks.",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fef8f5",
+  "theme_color": "#EFC0C2"
+} 
