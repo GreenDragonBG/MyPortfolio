@@ -1,17 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
+import { getPortfolioImgUrl } from '../data/supabase';
 
 const unityProjects = [
   {
     title: 'Adventure & Monsters',
     description: 'A Unity-based adventure game project featuring monsters and exploration. Play as a character and fight monsters in search of valuable colectables. Explore variuse eviurments with diffrent enemys on looks nad mechanics Built with C# and Unity engine.',
-    image: './assets/adventureImg.png',
+    image: getPortfolioImgUrl('adventureImg.png'),
     link: 'https://github.com/GreenDragonBG/Adventure-Monsters',
   },
   {
     title: 'Realms',
     description: 'A Unity-based adventure game project featuring monsters and exploration. Play as a character and fight monsters in search of valuable collectibles. Explore various environments with different enemies on looks and mechanics Built with C# and Unity engine.',
-    image: './assets/realmsImg.png',
+    image: getPortfolioImgUrl('realmsImg.png'),
     link: 'https://github.com/GreenDragonBG/Realms',
   }
 ];
@@ -20,13 +21,13 @@ const reactProjects = [
   {
     title: 'To Do List',
     description: 'A modern, interactive To Do List web app with drag-and-drop, built using React and Supabase. Organize your tasks efficiently and enjoy a clean, responsive UI.',
-    image: './assets/todolistImg.png',
+    image: getPortfolioImgUrl('todolistImg.png'),
     link: 'https://greendragonbg.github.io/ToDoList/',
   },
   {
     title: '3D Online Shop',
     description: 'A beautiful online shop with 3D product models and user authentication system, build with React, Three.js, and Supabase.',
-    image: './assets/3dshopImg.png',
+    image: getPortfolioImgUrl('3dshopImg.png'),
     link: 'https://mariaaivanova.github.io/OnlineShop.github.io/',
   }
 ];
